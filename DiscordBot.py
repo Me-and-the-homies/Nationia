@@ -1,9 +1,11 @@
 import discord
 from discord.ext import commands
 
+
+
 client = commands.Bot(command_prefix=';')
 
-@client.event
+"""@client.event
 async def on_ready():
     print('Bot is ready.')
 
@@ -29,7 +31,11 @@ async def pingStaff(ctx):
 
 @client.command()
 async def getRole(ctx):
-    await ctx.send('DM an Admin or an IllusionTV member if you want a custom role')
+    await ctx.send('DM an Admin or an IllusionTV member if you want a custom role')"""
+
+async def createPoll(ctx, pollName):
+    await ctx.send(f"new poll {pollName} has been created. Start naming your options\n\n ex:\n1.cool\n2.not cool\n3.epic")
+
 
 
 client.run('a9qTq06Y1DmWEaKEuyUOBb3rXoWrNSc3')
