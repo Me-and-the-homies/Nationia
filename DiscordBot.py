@@ -38,4 +38,4 @@ async def createPoll(ctx, pollName):
 
 
 
-client.run('a9qTq06Y1DmWEaKEuyUOBb3rXoWrNSc3')
+client.run('NzgzMTY1NjM3MTU3NDUzODY1.X8Wx1g.b-fJDV7EVBNkgOrOnP7F4BRpLiQ')
